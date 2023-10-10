@@ -5,6 +5,7 @@
 <%@page import="Scann.ConnectionUtility"%>
 <%@page import="java.sql.Date"%>
 <%@page import="java.time.LocalDate"%>
+<%@ page import="java.sql.SQLException" %>
 <html lang="en">
 
 <head>
@@ -141,6 +142,9 @@ input.addEventListener("keypress", function(event) {
 
 							<div class="p-t-15">
 								<a href="http://localhost:8081/MaketScanner/DataCheck/DateCheck.jsp"><button class="btn btn--radius-2 btn--blue" type="button">Check</button></a>
+								<button class="btn btn--radius-2 btn--blue" type="button" id="executeInBackground">Copy Data to Current Day</button>
+
+								
 							</div>
 
 
@@ -152,6 +156,27 @@ input.addEventListener("keypress", function(event) {
 	</div>
 
 	<!-- Jquery JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#executeInBackground').on('click', function() {
+        $.ajax({
+            url: 'copyData.jsp',
+            type: 'GET',
+            success: function(data) {
+                // You can handle the response from the JSP page here if needed.
+                console.log('copyData.jsp executed in the background.');
+                location.reload();
+            },
+            error: function(xhr, status, error) {
+                console.log('Error: ' + error);
+            }
+        });
+    });
+});
+</script>
+
+
 
 
 </body>

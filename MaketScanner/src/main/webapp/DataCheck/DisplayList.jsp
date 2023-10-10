@@ -3,7 +3,7 @@
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.Date"%>
-<%@page import="Scann.ConnectionUtility" %>
+<%@page import="Scann.ConnectionUtility"%>
 <html lang="en">
 
 <head>
@@ -53,8 +53,7 @@
 
 						<CENTER>
 
-							<BR>
-							<BR>
+							<BR> <BR>
 							<TABLE border="1">
 								<TR>
 									<TH>Product Name</TH>
@@ -67,7 +66,7 @@
 
 									String Date2nd = request.getParameter("date2");
 									Date Date2 = Date.valueOf(Date2nd);
-									
+
 									Connection con = ConnectionUtility.getconnection();
 
 									//String StrQuery1="truncate table scandate2";
@@ -87,8 +86,8 @@
 								%>
 								<TR>
 									<td><%=rs.getString(1)%></td>
-									
-									
+
+
 								</TR>
 
 								<%
@@ -108,8 +107,7 @@
 							</div>
 
 
-							<BR>
-							<BR>
+							<BR> <BR>
 					</form>
 				</div>
 			</div>

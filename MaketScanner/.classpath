@@ -13,22 +13,22 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Root/Downloads/core-3.3.0.jar">
+	<classpathentry kind="lib" path="C:/Users/Maddy/git/MarketScanner/MaketScanner/ReqFiles/core-3.3.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Root/Downloads/javase-3.3.0.jar">
+	<classpathentry kind="lib" path="C:/Users/Maddy/git/MarketScanner/MaketScanner/ReqFiles/javase-3.3.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/ADVANCE/tools/JAR FILES/Payroll/mysql-connector-java-8.0.11.jar">
+	<classpathentry kind="lib" path="C:/Users/Maddy/git/MarketScanner/MaketScanner/ReqFiles/mysql-connector-java-8.0.11.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/ADVANCE/tools/JAR FILES/Payroll/servlet-api.jar">
+	<classpathentry kind="lib" path="C:/Users/Maddy/git/MarketScanner/MaketScanner/ReqFiles/servlet-api.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
